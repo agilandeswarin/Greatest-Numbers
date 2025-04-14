@@ -1,0 +1,28 @@
+Find the Greatest of three numbers
+
+public static void main(String[] args) {
+		int a=40,b=70,c=100;
+		if(a==b)
+		{
+			System.out.println("Both a and b are Equal");
+		}
+		else if(a==c)
+		{
+			System.out.println("Both a and c are Equal");
+		}
+		else if(a>b)
+		{
+			System.out.println("40 is greater");
+		}
+		else if(b>c)
+		{
+			System.out.println("70 is greater");
+		}
+		else if(a<c)
+		{
+			System.out.println("100 is greater");
+		}
+		
+	}
+
+}
