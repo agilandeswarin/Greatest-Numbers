@@ -1,0 +1,23 @@
+Find the Greatest of two numbers
+
+package Javaprogramsexercise;
+//Greatest of two numbers
+public class GreatestofTwoNumbers {
+
+	public static void main(String[] args) {
+		int a=40,b=70;
+		if(a==b)
+		{
+			System.out.println("Both are Equal");
+		}
+		else if(a<b)
+		{
+			System.out.println("70 is greater");
+		}
+		else
+		{
+			System.out.println("40 is greater");
+		}
+	}
+
+}
